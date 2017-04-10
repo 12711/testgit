@@ -20,5 +20,6 @@ public class TestJaxService {
     public static  void  main(String [] args){
         Endpoint.publish("http://localhost:1234/testjax", new TestJaxControllerImpl());
         System.out.println("发布成功");
+        System.out.print("dfgfgfd");
     }
 }
